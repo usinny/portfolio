@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-</body>
+    <header>
+        <h1> 
+            <a href="#"> <img src = './images/weniv-logo.png' alt = '위니브'>
+             </a>
+        </h1>
+        <nav> 
+            <ul class = 'nav-list'> 
+                <li> <a href = '#home'> HOME </a></li>
+                <li> <a href = '#about'> ABOUT </a></li>
+                <li> <a href = '#activity'> ACTIVITY </a></li>
+                <li> <a href = '#contact'> CONTACT </a></li>
+            </ul>    
+        </nav>     
+    </header>
+    <main>
+           <section id = 'home'>
+                <h2 class = 'tit-descript'> 
+                    안녕하세요. <br /> 
+                    <strong>
+                    프론트엔드 <br /> 
+                    개발자 라이캣입니다.
+                    </strong> 
+                </h2>
+                <img class = 'profile-img' src="./images/Lycat.png" alt="인사하는 라이켓">
+                <a class = 'scroll-link' href="#about"> <img src="./images/down.svg" alt="아래로 이동"> </a>
+            </section>
+           <section id = 'about'> 
+                <h2 class = 'tit'> About </h2>
+                <p class ='descript'>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis voluptates pariatur, aut nam ducimus modi! Amet impedit ipsam voluptas neque fugit est aliquam culpa quia ipsum eum, vitae, consequuntur dolor! 
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat enim aliquam unde corrupti nemo ducimus ratione, a numquam perferendis harum tempora adipisci repellendus minima assumenda soluta quisquam iure ab.
+                </p>
+                <p class = addtional-info>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae temporibus quia sit accusantium eaque obcaecati architecto excepturi vitae dolores similique laudantium culpa, ut hic, rerum pariatur consequatur laborum provident.
+                </p>
+           </section>
+           <section id = 'activity'>
+                <h2 class="tit"> Activity</h2>
+                <ul class = 'activ-list'>
+                    <li>
+                        <strong class = 'activ-tit'>WE드림</strong>
+                        <p class = ''>WE드림 웹사이트 구현</p>
+                    </li>
+                    <li>
+                        <strong class = 'activ-tit'>워케이션 프로그램</strong>
+                        <p class = ''>년 워케이션 지원 프로그램 홍보 및 기획 담당</p>
+                    </li>
+                    <li>
+                        <strong class = 'activ-tit'>라이캣 장학금</strong>
+                        <p class = ''>라이캣 장학금 신청 페이지 구현</p>
+                    </li>
+                </ul>
+                <ul class = 'activ-img-list'>
+                    <li><img class = 'sup' src="./images/wedream.png" alt="서포터즈"></li>
+                    <li><img class = 'work' src="./images/workaction.png" alt="워케이션"></li>
+                    <li><img class = 'schor' src="./images/scholarship.png" alt="라이켓 장학금"></li>
+                </ul>
+            </section>
+           <section id = 'content'>
+            <div class = 'contact-cont'>
+                <h2 class="tit">Contact</h2>
+                <p class = 'descript'>
+                    포트폴리오를 통해 제 작업물과 프로젝트를 확인해 주셨을 것 같습니다. 저의 경력과 기술 스택에 대해 궁금한 점이나 추가 정보를 원하신다면 언제든지 연락 주시면 감사하겠습니다.
+                </p>
+                <div class = 'contact-box'>
+                    <div class = 'mail-box'>
+                        <img src="./images/mail.svg" alt="메일 보내기">
+                        <a href="mailto:kimyu13@naver.com">kimyu13@naver.com</a>
+                    </div>
+                    <div class = 'mobile-box'>
+                        <img src="./images/mobile.svg" alt="전화 걸기">
+                        <a href="tel:010-6323-9158">010-6323-9158</a>
+                    </div>
+                </div>
+            </div> 
+            </section> 
+    </main>
+    <footer>
+        <small>Copyright 2023. WENIV all rights reserved.</small>    
+    </footer>
+</body> 
 </html>
